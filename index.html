@@ -1,88 +1,123 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>GRA1750p4MiaPierre2025</title>
-<link rel="stylesheet" href="https://use.typekit.net/ojj0oxi.css">
+<meta charset="UTF-8">
+<title>GRA1750p5MiaPierre.2025</title>
 </head>
 <style>
-
-	header{
-		font-size: 18px;
-		font-family:
-		color:;
-	    text-align: center;
-		margin:auto;
-		padding: 10px;
-		
-	
-	}
-	
-	h1{
-	
-		padding:80px;
-		
-	}
-	h2{
-		font-size: 125px;
-		font-family: "krul", sans-serif;
-		color:;
-		padding:
-		
-	}
-	
-   body{
-		text-align: center;
-	    margin:50px;
-		background-color:;
-		color:black;
-	
-	}
-	
-	main{
-		
-		margin:auto;
-		border: 80px;
-		//padding: inherit;
-		display: inline-block;
-		
-		
-	}
-	
-	body{
-		 background-image: image()
-		
-	}
 	
 	wrapper{
-	        
-			display:block;
-			width: 800px;
-		    height: 900px;
-			box-sizing: border-box;
-			//background-color: rgba(255,255,255,.90);
-	        border:black;	
-	        //border-radius: 15px;
-            border-style:groove;
-	        margin:auto;
-		    text-align:center;
+		
+		width: 800px;
+		display: block;
+		margin:auto;
+		Padding: 5px;
+		box-sizing:border-box;
+		background-color: rgba(255,255,255, .90);
+		border:black;
+		border-radius:15px;
+		
+		
+	}
 	
+	header{
+		
+		text-align: center;
+		padding: 20px;
+		
+		
+	}
+	
+	.logo{
+		
+		vertical-align: middle;
+		margin:auto;
+		text-align: center;
+			
+	}
+	
+	
+	body,ul{
+		
+		margin:0;
+		padding:0;
+		list-style:none;
+		font-family: ;
+		
+		
+	}
+	
+	.nav-menu{
+		
+		display:flex;
+		justify-content: center;
+		background-color:beige;
+		padding:20px 0;
+				
+	}	
+	
+	.nav-menu li{
+		
+		margin:0 15px;
+	}
+	
+	.nav-menu a{
+		
+		text-decoration: none;
+		color:black;
+		font-size:18px;
+		padding:5px 0;
+		display:inline;
+		position:relative;
+		
+	}
+	
+	.nav-menu a::after{
+		
+		content:"";
+		position:absolute;
+		left:0;
+		bottom:-3px;
+		width:100%;
+		height:2px;
+		background-color:aqua;
+		transform:scaleX(0);
+		transition:transform 0.3s ease-in-out;
+		
+	}
+	
+	.nav-menu a:hover::after{
+		
+		transform: scaleX(1);	
+	}
 	
 </style>
 <body>
 <header>
+  <img src="../Downloads/logo_.png" width="350" height="200" alt="bake slogan" class="logo"/> 
+</header>
 <wrapper>
-<h1>You Are Invited </h1>
-<header>
-<main>
-<h2>Girl's Night In</h2>
-<p>Please join us for a fun girls night in!</p>
-<p>March 1, 2025 &#124; 4pm</p>
-<p>Ivy Asian Meals &amp; cocktails</p>
-<p>Mia's house </p>
-<p>Attire: Comfy/cute</p>
-<p>RSVP to Easha</p>
-</main>
+ <nav>
+	 <ul class="nav-menu">
+		 <li><a href="#">Home</a></li>
+		 <li><a href="#">Reservation</a></li>
+		 <li><a href="#">Bakery/Cafe</a></li>
+		 <li><a href="#">Platters</a></li>
+		 <li><a href="#">Cakes</a></li>
+		 <li><a href="#">Desserts</a></li>
+		 
+	 </ul> 
+</nav>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
 </wrapper>
 </body>
 </html>
